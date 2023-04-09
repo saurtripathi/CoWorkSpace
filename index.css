@@ -4,52 +4,78 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/*
-Challenge:
-1. Get this layout looking like the 
-   screenshots on the slide.
-*/ 
+img{
+    width: 100%;
+}
 
 header{
     display: flex;
-    background-color: #282828;
-    color: whitesmoke;
+    background-color:#001524;
 }
 
-ul {
+ul{
     display: flex;
-    padding: 25px;
+    justify-content: start;
     list-style-type: none;
 }
 
 .logo{
-    font-size: 18px;
+    
+    color: #FFECD1;
+    font-size: 20px;
     font-weight: 700;
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
 
-.icon{
-    width: 25px;
-    padding-left: 10px;
+.location{
+ width: 20px;
+ height: 20px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-left: 10px;
+}
+.align-right{
+
+    width:20px;
+    height: 20px;
+    /* margin: auto 0 auto auto; */
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 20px;;;
 }
 
-h1{
-    font-size: 40px;
+button {
+    /* display: inline-block; */
+    margin-left: auto;
+    background-color: #15616D;
+    color: #FFECD1;
+    border: none;
+    padding: 20px;
     font-weight: 700;
-    margin: 30px 25px;
+    cursor: pointer;
+    font-size: 20px;
+    
 }
 
-.item-img{
-  width: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+button:active {
+
+    transform: translateX(-4px);
+  }
+
+.container {
+    display: flex;
+    /* justify-content: space-around; */
 }
 
-/* .item {
-    width: 1500px;
-} */
 
-.caption {
-    margin: 0px 25px;
-    font-weight: 400;
-}
+
+
+
+
+.img-item {
+display: flex;
+} 
+
+
